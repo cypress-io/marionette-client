@@ -4,7 +4,7 @@ var assert = require('chai').assert;
 var helper = global.helper = {};
 global.assert = assert;
 global.suite = describe
-global.suiteSetup = before
+global.suiteSetup = beforeEach
 global.test = it
 global.setup = beforeEach
 global.teardown = afterEach
